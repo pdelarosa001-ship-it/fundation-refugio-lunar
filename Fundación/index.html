@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--1. Los metadatos-->
+<meta charset="UTF-8">
+<meta name="description" content="REFUGIO LUNAR - fundación para el rescate de gatitos en situación de calle">
+<meta name="keywords" content="keywords">
+<meta name="author" content="Pilar de la Rosa">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--2. título de la página que aparece en el buscador-->
+<title>REFUGIO LUNAR</title>
+<!--enlace al archivo CSS-->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<!--Hasta acá va el head-->
+<body>
+    <header class="header">
+        <div class="container header-inner">
+        <a class="logo" hred="#">
+<img src="IMG/LOGO FN.png" alt="REFUGIO LUNAR" height="150" />
+        </a>
+        
+    <nav class="inicio">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a class="btn-dona" href="#donar">Donar</a></li>
+        </ul>
+    </nav>
+    </div>
+    </header>
+
+<main>
+    <section class="hero video-hero">
+      <video class="hero-video" id="heroVideo" muted loop playsinline>
+        <source src="IMG/VIDEO.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content container">
+       
+          <div class="hero-actions">
+            <a class="btn primary" href="https://forms.gle/KnBpKbovfTXMEiWu7">Dona</a>
+            <a class="btn outline" href="#voluntariado">Sé parte</a>
+          </div>
+        
+
+        <div class="stats-grid">
+          <div class="stat">
+            <div class="stat-number">21 % </div>
+            <div class="stat-label">tienen origen “los encontré en la calle”</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number"> 9 millones </div>
+            <div class="stat-label">de gatos en la calle</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">1.2 millones</div>
+            <div class="stat-label">perros y gatos callejeros”</div>
+          </div>
+        </div>
+        </div>
+        </section>
+
+        <section id="proyectos" class="projects container">
+          <h2>Proyectos para los gatitos</h2>
+          <p class="lead">Son proyectos que rescatan, cuidan y esterilizan gatitos callejeros para darles una mejor vida y ayudarles a encontrar un hogar.</p>
+    
+          <div class="project-cards">
+            <article class="card">
+              <div class="card-img" id="Proyecto-Gatto-CDMX"></div>
+              <div class="card-body">
+                <h3>Proyecto-Gatto-CDMX</h3>
+                <p>Rescatan gatos (y también perros) desde cachorros hasta veteranos, sanos, enfermos o con discapacidad</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-img" id="Pet-Project-Rescue-Playa-del-Carmen" ></div>
+              <div class="card-body">
+                <h3>Pet-Project-Rescue-(Playa-del-Carmen-Quintana Roo)</h3>
+                <p>Son una organización que opera clínicas gratuitas de esterilización y cuidado para perros y gatos, tanto de dueños de bajos recursos como de animales en situación de calle</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-img" id="Earthgonomic-México-Puebla-Puebla"></div>
+              <div class="card-body">
+                <h3>Earthgonomic-México-(Puebla-Puebla)</h3>
+                <p>Dentro de sus programas de rescate y apoyo, atienden perros y gatos que han sido abandonados o maltratado</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+
+        <section id="contacto" class="newsletter">
+      <div class="container newsletter-inner">
+        <div>
+          <h2>¡No te pierdas lo último!</h2>
+          <p>Suscríbete para recibir noticias e historias.</p>
+        </div>
+        <form id="subscribeForm" class="subscribe-form" novalidate>
+          <input id="email" type="email" placeholder="Tu correo electrónico" required />
+          <button class="btn primary" type="submit">Suscribirme</button>
+        </form>
+        <div id="formMessage" class="form-message"></div>
+      </div>
+      
+    </section>
+
+   
+</main>
+<footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>Sobre la fundación</h4>
+        <p>texto sobre la fundación</p>
+      </div>
+      <div class="footer-col">
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="#quienes">Quiénes somos</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#impacto">Impacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <address>
+          dirección<br/>ciudad y país<br/>
+          <a href="delarosapilar911@gmail.com">p.delarosa001@ebc.edu.mx</a>
+        </address>
+      </div>
+    </div>
+     <!-- Redes sociales -->
+  <div class="footer-social">
+    <div class="container social-icons">
+      <a href="https://www.facebook.com/ebccampustlalnepantla" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/laebc/?hl=en" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@EscuelaBancariayComercial" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/in/pilar-de-la-rosa-618031312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://x.com/LaEBC" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+     
+    </div>
+  </div>
+    <div class="footer-bottom">
+      <div class="container">©️ <span id="anio"></span> REFUGIO LUNAR </div>
+    </div>
+  </footer>
+
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
+<!--Esta clase se me dificulto bastante, me perdi al momento de realizar los cambios del codigo, aunque si me sale no entiendo mucho el como ni el porque-->
